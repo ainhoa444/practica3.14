@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="web.php" method="GET">
+
+    <h1>Accede a tu Área Clientes</h1>
+    <p>Elige tu documento</p>
+     <p><input type="radio" name="radio">DNI o tarjeta de residencia</p>
+     <p><input type="radio" name="radio">Pasaporte</p>
+    <p>Número de documento</p>
+    <p><input type="text" placeholder="DNI o Tarjeta de residencia"></p>
+    <p>Fecha de nacimiento</p>
+  <p> <input type="date"id="fecha"></p> 
+    <p><input type="checkbox" name="check">Recordar</p>
+
+    <p><input type="submit" name="entrar" value="entrar"></p>
+    <a href="">Acceder con DNI electrónico</a>
+<br>
+<a href="">Más información sobre seguridad</a>
+
+</form>
+
+<hr>
+
+<form action="web.php" method="get"></form>
+<p>Empieza creando tu usuario</p>
+<input type="text" placeholder="Nombre (como sale en el DNI)" name="Nombre" id="Nombre">
+
+
+<br>
+    
+<pre>Primer apellido          Segundo apellido</pre>
+<input type="text" placeholder="1º apellido (como sale en el DNI)" name="apellido1" id="apellido1">
+<input type="text" placeholder="2º apellido (como sale en el DNI)" name="apellido2" id="apellido2">
+<pre>Tipo de documento    Numero de documento</pre>
+<select name="tipoDocumento" id="tipoDocumento">
+<option value="0">   DNI/NIF/CERT.AEAT  </option>
+<option value="1">DNI</option>
+<option value="2">NIF</option>
+<option value="3">CERT.AEAT</option>
+</select>
+<input type="text" placeholder="Número de documento" name="numDocumento" id="numDocumento">
+<br>
+<pre>Móvil                    Email</pre>
+<input type="text" placeholder="Móvil" name="movil" id="movil">
+<input type="text" placeholder="Email" name="Email" id="Email">
+<br>
+<br>
+<input type="submit" value="Enviar">
+</form>
+<hr>
+
+<h1>¿Eres nuevo?</h1>
+<p>Regístate para guardar tu información y hacer tus pedidos de forma más fácil y rápida.</p>
+
+
+
+
+
+
+
+
+
+<pre>Email</pre>
+<input type="text" placeholder="Introduce tu email" name="Email" id="Email">
+<br>
+<pre>Teléfono</pre>
+<input type="date" placeholder="Tu teléfono" name="Telefono" id="Telefono">
+
+<form action="web.php" method="GET">
+
+<pre>Contraseña</pre>
+<input type="password" placeholder="Introduce tu contraseña" name="contraseña" id="contraseña">
+<br>
+<pre>Repite tu contraseña</pre>
+<input type="password" placeholder="Confirmar contraseña" name="contraseña" id="contraseña">
+<br>
+<input type="checkbox" name="Pdp" id="Pdp">He leído y acepto <a href="">Politica de privacidad</a>
+<br>
+<input type="checkbox" name="add" id="add"> Sí, acepto recibir comunicaciones comerciales y ofertas personalizadas según mi perfil.
+<br>
+<br>
+<input type="submit" value="Crea tu cuenta">
+
+
+</body>
+</html>
